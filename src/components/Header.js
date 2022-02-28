@@ -1,0 +1,15 @@
+    import {Component} from 'react'
+    
+    
+    class Header extends Component{
+       
+         render(){
+            return(<h1>hello this is {this.props.hai} </h1>)
+         }
+      
+   
+
+    }
+
+
+    export default Header
